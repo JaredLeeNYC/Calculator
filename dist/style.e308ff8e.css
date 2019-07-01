@@ -1,0 +1,54 @@
+body {
+
+    align-items:center; 
+}
+
+.caculator {
+    width:350px;
+    border: 1px solid black;
+    display: block;
+    margin:100px auto;
+    
+}
+
+.screen{
+    height:60px;
+    background-color: black;
+    text-align: right;
+    color: white;
+    padding: 20px 5px;  
+    font-size: 40px;
+}
+
+.row{
+    display: flex;
+    height: 100px;
+
+}
+
+.cal-button{
+    background-color: #d8d9db;
+width: 25%;
+font-size: 40px;
+color: black;
+border: 1px solid black;
+cursor: pointer;
+}
+
+.cal-button:hover {
+    background-color: #e0e5f0;
+}
+
+.cal-button:last-child{
+background-color: #df974c;
+}
+
+.cal-button:last-child:hover {
+    background-color: #dda160;
+}
+
+.double{
+    width:50%;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
